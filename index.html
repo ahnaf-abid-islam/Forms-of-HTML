@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms of HTML</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Sign in Form</h1>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Enter your Username"><br>
+
+            <label>Age:</label>
+            <input type="number" name="age" placeholder="Enter your Age"><br>
+
+            <label>Birth Date:</label>
+            <input type="date" name="birthDate" placeholder="Enter your Birthday"><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter your Email"><br>
+
+            <label>Contact Number:</label>
+            <input type="password" name="contact" placeholder="Enter your Phone Number"><br>
+
+            <label>Gender:</label>
+            <br>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            <br><br>
+            <label>Favorite City:</label><br>
+            <input type="checkbox" id="city" name="Dhaka">Dhaka<br>
+            <input type="checkbox" id="city" name="Pabna">Pabna<br>
+            <input type="checkbox" id="city" name="Rajshahi">Rajshahi<br>
+
+        </fieldset>
+    </main>
 </body>
+
 </html>
